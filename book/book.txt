@@ -1,3 +1,31 @@
+git init
+
+git add file
+
+git commit file -m '描述'
+
+git remote add origin 网址
+
+git push -u origin mastr
+
+git remote rm origin
+
+git remote show origin
+
+git branch  名字（创建分支)
+
+git checkout 名字（切换分支)
+
+git checkout -b 名字（创建并切换到此分支)
+
+git merge 分支名字 --allow-unrelated-histories（将分支合并到主分支）
+
+git branch -D 名字（删除分支)
+
+git rm -r --cached file(删除远程仓库文件）提交后 push更新仓库
+
+
+
 1.初始化仓库
 2.git add 加入文件
 3.提交文件
