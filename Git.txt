@@ -1,0 +1,12 @@
+adb reboot bootloader
+./flash_all.sh
+adb devices
+adb version
+uname -a
+ls -ah
+
+git add file
+
+git commit -m "aaaaaa"
+git status
+
